@@ -7,6 +7,20 @@ const fs = require('fs');
 const app = express();
 const PORT = 3000;
 
+// Configura FFmpeg per usare i binari locali (Windows)
+const ffmpegPath = path.join(__dirname, 'ffmpeg', 'bin', 'ffmpeg.exe');
+const ffprobePath = path.join(__dirname, 'ffmpeg', 'bin', 'ffprobe.exe');
+
+// Usa FFmpeg locale se esiste, altrimenti usa quello di sistema
+if (fs.existsSync(ffmpegPath)) {
+    ffmpeg.setFfmpegPath(ffmpegPath);
+    console.log('✅ Usando FFmpeg locale:', ffmpegPath);
+}
+if (fs.existsSync(ffprobePath)) {
+    ffmpeg.setFfprobePath(ffprobePath);
+    console.log('✅ Usando FFprobe locale:', ffprobePath);
+}
+
 // Crea le directory necessarie
 const UPLOAD_DIR = path.join(__dirname, 'uploads');
 const OUTPUT_DIR = path.join(__dirname, 'output');

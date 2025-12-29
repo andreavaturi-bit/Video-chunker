@@ -8,6 +8,9 @@ uploads/
 # Generated chunks
 output/
 
+# FFmpeg portable (downloaded by setup.bat)
+ffmpeg/
+
 # Logs
 *.log
 npm-debug.log*

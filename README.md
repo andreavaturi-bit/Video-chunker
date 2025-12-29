@@ -10,42 +10,57 @@ Mini-app web che permette di caricare video di qualsiasi dimensione e li spezzet
 - ⚡ **Veloce ed efficiente** - Usa FFmpeg per lo splitting professionale
 - 💾 **Download facile** - Scarica singoli chunks o tutti insieme
 
-## 📋 Requisiti
+## 🚀 Installazione SUPER FACILE per Windows
 
-Prima di iniziare, assicurati di avere installato:
+### ⚡ Installazione automatica (consigliata)
+
+1. **Scarica o clona questo repository**
+
+2. **Fai doppio click su `setup.bat`**
+   - Lo script installerà TUTTO automaticamente:
+     - ✅ Node.js (se non presente)
+     - ✅ FFmpeg portable
+     - ✅ Tutte le dipendenze necessarie
+
+3. **Fatto!** Quando vedi "Setup completato", sei pronto!
+
+### ▶️ Avvio dell'applicazione
+
+**Fai doppio click su `start.bat`**
+
+Il browser si aprirà automaticamente su http://localhost:3000 e sei pronto per spezzettare i tuoi video! 🎉
+
+---
+
+## 📋 Installazione Manuale (Opzionale)
+
+Se preferisci installare manualmente o usi Linux/macOS:
+
+### Requisiti
 
 1. **Node.js** (versione 14 o superiore)
    - Scarica da: https://nodejs.org/
 
 2. **FFmpeg** (obbligatorio per lo splitting video)
-   - **Windows**: Scarica da https://ffmpeg.org/download.html e aggiungi al PATH
+   - **Windows**: Lo script automatico lo scarica per te!
    - **macOS**: `brew install ffmpeg`
    - **Linux**: `sudo apt-get install ffmpeg` (Ubuntu/Debian) o `sudo yum install ffmpeg` (CentOS/RHEL)
 
-## 🚀 Installazione
+### Passi manuali
 
-1. **Clona o scarica questo repository**
-
-2. **Installa le dipendenze**:
+1. **Installa le dipendenze**:
    ```bash
    npm install
    ```
 
-## ▶️ Avvio
-
-1. **Avvia il server**:
+2. **Avvia il server**:
    ```bash
    npm start
    ```
 
-2. **Apri il browser** e vai su:
+3. **Apri il browser** e vai su:
    ```
    http://localhost:3000
-   ```
-
-3. **Per sviluppo** (con auto-reload):
-   ```bash
-   npm run dev
    ```
 
 ## 📖 Come usare
@@ -85,13 +100,16 @@ I chunks mantengono:
 
 ```
 video-chunker/
-├── server.js           # Server Express con logica di chunking
-├── package.json        # Dipendenze del progetto
+├── setup.bat          # 🔧 Script di setup automatico per Windows
+├── start.bat          # ▶️ Script di avvio per Windows
+├── server.js          # Server Express con logica di chunking
+├── package.json       # Dipendenze del progetto
 ├── public/
-│   └── index.html     # Interfaccia web
-├── uploads/           # File temporanei (creata automaticamente)
-├── output/            # Chunks generati (creata automaticamente)
-└── README.md          # Questo file
+│   └── index.html    # Interfaccia web
+├── ffmpeg/           # FFmpeg portable (scaricato da setup.bat)
+├── uploads/          # File temporanei (creata automaticamente)
+├── output/           # Chunks generati (creata automaticamente)
+└── README.md         # Questo file
 ```
 
 ## 🔧 Configurazione
