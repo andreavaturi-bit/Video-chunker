@@ -1,0 +1,108 @@
+========================================
+VIDEO CHUNKER - GUIDA SUPER SEMPLICE
+========================================
+
+INSTALLAZIONE (UNA VOLTA SOLA):
+
+1. Hai gia' installato Node.js e FFmpeg? 
+   Se NO, esegui: setup_fixed.bat
+
+2. Crea le scorciatoie desktop:
+   Doppio click su: Crea-Scorciatoie.bat
+
+FATTO! Ora hai 3 icone sul desktop.
+
+========================================
+
+USO QUOTIDIANO:
+
+1. AVVIA VIDEO CHUNKER
+   Doppio click su: "Video Chunker" (desktop)
+   
+   - Nessuna finestra si apre (tutto nascosto)
+   - Dopo 3 secondi il browser si apre automaticamente
+   - Sei pronto per usare l'app!
+
+2. USA L'APPLICAZIONE
+   - Trascina un video nell'area di upload
+   - Attendi il processing
+   - Scarica i chunks
+
+3. CHIUDI IL BROWSER
+   Quando hai finito, chiudi il browser normalmente
+   (il server rimane attivo in background)
+
+4. RIAPRI IL BROWSER (se serve)
+   Doppio click su: "Apri Video Chunker" (desktop)
+
+5. FERMA IL SERVER (quando hai finito)
+   Doppio click su: "Ferma Video Chunker" (desktop)
+
+========================================
+
+SCORCIATOIE DESKTOP:
+
+📹 Video Chunker
+   - Avvia il server (nascosto)
+   - Apre il browser automaticamente
+
+🌐 Apri Video Chunker
+   - Riapre il browser se l'hai chiuso
+   - (usa solo se il server e' gia' attivo)
+
+⛔ Ferma Video Chunker
+   - Ferma il server
+   - Usa quando hai finito di lavorare
+
+========================================
+
+WORKFLOW CONSIGLIATO:
+
+MATTINA:
+  1. Click su "Video Chunker"
+  2. Browser si apre
+  3. Lavora con i tuoi video
+
+DURANTE IL GIORNO:
+  - Se chiudi il browser: click "Apri Video Chunker"
+  - Il server e' gia' attivo, si riapre solo il browser
+
+SERA:
+  - Click su "Ferma Video Chunker"
+  - Server si ferma
+
+========================================
+
+VANTAGGI:
+
+✅ Nessuna finestra terminale visibile
+✅ Avvio automatico del browser
+✅ Scorciatoie desktop comode
+✅ Facile da fermare
+✅ Interfaccia professionale
+✅ Funziona al 100% (gia' testato!)
+
+========================================
+
+PROBLEMI COMUNI:
+
+"Il browser non si apre"
+→ Aspetta 5 secondi, poi click "Apri Video Chunker"
+
+"Errore nel browser"
+→ Ferma e riavvia: "Ferma Video Chunker" poi "Video Chunker"
+
+"Porta 3000 gia' in uso"
+→ Click "Ferma Video Chunker" poi riprova
+
+========================================
+
+NOTA IMPORTANTE:
+
+Questa versione usa il codice che HAI GIA' TESTATO
+con successo sul tuo PC. Non ci sono problemi di
+build o antivirus. Funziona al 100%!
+
+========================================
+
+Buon lavoro! 🎬✨
